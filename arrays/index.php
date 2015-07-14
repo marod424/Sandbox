@@ -4,10 +4,17 @@ $months = array('january', 'february', 'march', 'april', 'may', 'june');
 // echo $months[4];
 // print_r($months);
 $tuts_sites = array (
+    'multiple' => 'false',
     'nettuts' => 'http://net.tutsplus.com',
     'psdtuts' => 'http://psd.tutsplus.com',
     'wptuts' => 'http://wp.tutsplus.com'
 );
+
+if ($tuts_sites['multiple']) {
+    unset($tuts_sites['multiple']);
+}
+
+var_dump($tuts_sites);
 
 ?>
 
