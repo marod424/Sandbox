@@ -60,4 +60,25 @@ $(function() {
         // $(targetAccordion).slideDown();
         $(targetAccordion).show();
     });
+
+    /** 
+     * Code Mirror
+     */
+    var config = {
+        mode: "xml",
+        htmlMode: true,
+        lineNumbers: true,
+        readOnly: true
+    };
+
+    var gridCodeMirror       = CodeMirror.fromTextArea(document.getElementById('grid-snippet'), config);
+    var buttonsCodeMirror    = CodeMirror.fromTextArea(document.getElementById('buttons-snippet'), config);
+    var formsCodeMirror      = CodeMirror.fromTextArea(document.getElementById('forms-snippet'), config);
+    var iconsCodeMirror      = CodeMirror.fromTextArea(document.getElementById('icons-snippet'), config);
+    var feedbackCodeMirror   = CodeMirror.fromTextArea(document.getElementById('feedback-snippet'), config);
+    var navCodeMirror        = CodeMirror.fromTextArea(document.getElementById('nav-snippet'), config);
+    var animationsCodeMirror = CodeMirror.fromTextArea(document.getElementById('animations-snippet'), config);
+    var tabsCodeMirror       = CodeMirror.fromTextArea(document.getElementById('tabs-snippet'), config);
+    var accordionCodeMirror  = CodeMirror.fromTextArea(document.getElementById('accordion-snippet'), config);
+    var carouselCodeMirror   = CodeMirror.fromTextArea(document.getElementById('carousel-snippet'), config);
 });
