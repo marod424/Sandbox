@@ -19,9 +19,11 @@
     <h1>Sand <i class="fa fa-cube fa-2x"></i>!</h1>
     <ul>
         <h3>PHP</h3>
+        <li><a href="AgileDesignPatterns/index.php">Agile Design Patterns</a></li>
         <li><a href="arrays/index.php">Arrays</a></li>
         <li><a href="conditionals/index.php">Conditionals</a></li>
         <li><a href="cookies/index.php">Cookies</a></li>
+        <li><a href="css3/index.html">CSS3</a></li>
         <li><a href="formatted-strings/index.php">Formatted Strings</a></li>
         <li><a href="functions/index.php">Functions</a></li>
         <li><a href="heredocs/index.php">Heredocs</a></li>
