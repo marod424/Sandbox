@@ -68,7 +68,8 @@ $(function() {
         mode: "xml",
         htmlMode: true,
         lineNumbers: true,
-        readOnly: true
+        readOnly: true,
+        viewportMargin: Infinity
     };
 
     var gridCodeMirror       = CodeMirror.fromTextArea(document.getElementById('grid-snippet'), config);
