@@ -1,0 +1,20 @@
+{
+  "name": "Sandbox",
+  "version": "0.0.1",
+  "homepage": "https://github.com/marod424/sandbox",
+  "authors": [
+    "Earth <marod424@gmail.com>"
+  ],
+  "description": "Box with sand in it.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.3.0"
+  }
+}

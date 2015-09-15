@@ -5,11 +5,11 @@
     <title>My Sandbox</title>
     <style>
         h1 { text-align: center; }
-        ul { 
+        ul {
             list-style: none;
-            background-color: rgb(244, 203, 141); 
+            background-color: rgb(244, 203, 141);
             border: 2px solid rgb(211, 138, 75);
-            padding-bottom: 1em; 
+            padding-bottom: 1em;
         }
         li a { text-decoration: none; }
     </style>
@@ -23,7 +23,6 @@
         <li><a href="arrays/index.php">Arrays</a></li>
         <li><a href="conditionals/index.php">Conditionals</a></li>
         <li><a href="cookies/index.php">Cookies</a></li>
-        <li><a href="css3/index.html">CSS3</a></li>
         <li><a href="formatted-strings/index.php">Formatted Strings</a></li>
         <li><a href="functions/index.php">Functions</a></li>
         <li><a href="heredocs/index.php">Heredocs</a></li>
@@ -34,10 +33,10 @@
         <li><a href="$_post/index.php">POST</a></li>
         <li><a href="sessions/index.php">Sessions</a></li>
         <li><a href="super-globals/index.php">Super Globals</a></li>
-        <li><a href="xdebug/index.php">XDebug</a></li>
-        <h3>Responsive Design</h3>
+        <h3>Front End Design</h3>
         <li><a href="AngularUI/index.html">AngularUI</a></li>
         <li><a href="Boilerplate/index.html">Boilerplate</a></li>
+        <li><a href="css3/index.html">CSS3</a></li>
         <li><a href="PatternLibrary/index.html">Pattern Library</a></li>
         <li><a href="WebTemplate/index.html">Public Web Template</a></li>
         <li><a href="Responsive/index.html">Responsive</a></li>
