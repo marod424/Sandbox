@@ -1,0 +1,96 @@
+*,
+*:after,
+*::before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body,
+.nav-container,
+.nav-pusher,
+.nav-content {
+    height: 100%;
+}
+
+.nav-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-content {
+    position: relative;
+    overflow-y: scroll;
+    background: #f3efe0;
+    border-top: 1.5em solid rgba(0,0,0,0.2);
+    border-left: 1em solid rgba(0,0,0,0.2);
+    padding: 2em;
+}
+
+.nav-pusher {
+    position: relative;
+    left: 90px;
+    z-index: 99;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+
+.nav-menu.open ~ .nav-pusher {
+    -webkit-transform: translate3d(182px, 0, 0);
+    transform: translate3d(182px, 0, 0);
+}
+
+.nav-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    background: #747061;
+}
+
+.nav-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*.nav-menu h2 {
+    margin: 0;
+    padding: 1em;
+    color: rgba(0,0,0,0.4);
+    text-shadow: 0 0 1px rgba(0,0,0,0.1);
+    font-weight: 300;
+    font-size: 2em;
+}*/
+
+.nav-menu ul li a {
+    display: block;
+    outline: none;
+    color: #f3efe0;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-transition: background 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.nav-menu ul li a i {
+    margin: 1em;
+}
+
+.nav-menu ul li a:hover {
+    background: rgba(0,0,0,0.2);
+    box-shadow: inset 0 -1px rgba(0,0,0,0);
+    color: #fff;
+}
+
+.nav-menu.open ul li:first-child a i:first-child {
+    visibility: hidden;
+}
+
+/* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
+.no-csstransforms3d .nav-pusher,
+.no-js .nav-pusher {
+    padding-left: 300px;
+}
